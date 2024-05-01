@@ -1,0 +1,74 @@
+.container{
+    position: absolute; 
+    top: 74%;
+    left: 0%;
+    width: 1440px; 
+    height: 920px; 
+    border-radius: 0px; 
+    color: #fff;
+    background-color:rgb(2, 135, 126); 
+    
+    
+}
+.inputfield{
+
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+ 
+   }
+
+   .text{
+    font-size: 65px;
+    margin-left: 8%;
+    color:  rgb(185, 185, 185);
+   
+   }
+
+
+   .timeline{
+    margin-left: 8%;
+    grid: 200px
+   }
+
+   .timelineItem {
+    font-size: 18px; /* Adjust the font size as needed */
+    margin-bottom: 10px; /* Add margin between timeline items */
+  }
+
+
+  .stepheadline{
+    font-size: 40px;
+    color: #fff;
+  }
+
+  .stepdecription{
+    font-size: 20px;
+    color:  rgb(185, 185, 185);
+  }
+
+  .creatorcontainer{
+    width: 1440px; 
+    height: 450px; 
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items:  center;
+
+
+}
+
+  .creatortext{
+    font-size: 45px;
+    color: black;
+    
+
+  }
+
+  .imagediv{
+    gap: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }

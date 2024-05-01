@@ -1,0 +1,71 @@
+/* Container for the cards */
+.cardContainer {
+  margin-top: 750px;
+  margin-left: 800px;
+  width: 1450px; 
+}
+
+/* Card container styling */
+.customCardContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Three columns with equal width */
+  gap: 20px; /* Adjust the gap between cards as needed */
+  margin-bottom: 90px;
+}
+
+/* Card styling */
+.customCard {
+  /* Add any additional styles for the card */
+  background-color:   rgb(249, 255, 254); 
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 70px;
+  border: 1px dotted    rgb(11, 105, 89); ;
+}
+.customCard2{
+  background-color:  rgb(249, 255, 254); 
+  width: 360px;
+  height: 290px;
+  justify-content: center;
+  align-items: center;
+  border: 1px dotted    rgb(11, 105, 89); ;
+}
+/* Card title styling */
+.customCard .ant-card-head {
+  background-color: #1890ff; /* Example background color */
+  color: #fff; /* Example text color */
+}
+
+/* Card title text styling */
+.customCard .ant-card-head-title {
+  font-size: 18px; /* Example font size */
+  font-weight: bold; /* Example font weight */
+}
+
+/* Card content text styling */
+.customCard .ant-card-body p {
+  margin-bottom: 10px; /* Example margin bottom */
+}
+
+.inputfield{
+  width:140vh;
+  height: 10vh;
+  display: flex;
+  margin-left: 14%;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-top: 5%;
+ }
+ 
+ .searchbar{
+   width:100vh;
+   
+ }
+ .sort{
+   width: 50vh;
+   margin-left: 17px;
+   
+   
+ }
+

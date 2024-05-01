@@ -1,0 +1,40 @@
+.container{
+  position: absolute; 
+  top: 74%;
+  left: 0%;
+  width: 1440px; 
+  height: 150px; 
+  background-color : #fff;
+  border-radius: 0px; 
+  color: #fff;
+}
+.inputfield{
+  width:160vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+ }
+ 
+ .searchbar{
+   width:100vh;
+   
+ }
+ .sort{
+   width: 50vh;
+   margin-left: 17px;
+ }
+
+ .headline{
+      font-size: 40px;
+      margin-left: 20%;
+      color:  rgb(18, 118, 91);
+      
+ }
+
+ .text{
+  font-size: 18px;
+  margin-left: 35%;
+  color:  rgb(169, 169, 169);
+ 
+ 
+ }

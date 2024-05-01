@@ -1,0 +1,216 @@
+/* Container 101 */
+.container {
+    position: absolute; 
+    top: 65px; 
+    left: 1px; 
+    width: 1440px; 
+    height: 512px; 
+    background: #ECFDFCFF; /* primary-100 */
+    border-radius: 0px; 
+  }
+
+  /* Container 102 */
+.container2 {
+    position: absolute; 
+    top: 53px; 
+    left: 663px; 
+    width: 645px; 
+    height: 406px; 
+    background: #ECFDFCFF; /* primary-100 */
+    border-radius: 0px; 
+    
+  }
+
+  /* Rectangle 9 */
+.rectangle {
+    position: relative; 
+    top: 85px; 
+    left: 59px; 
+    width: 586px; 
+    height: 244px; 
+    background: #0EA89BFF; /* primary-500 */
+    border-radius: 122px; 
+    box-shadow: 0px 17px 35px #0ea89b, 0px 0px 2px #0ea89b;
+    z-index: 1; /* Ensure the rectangle appears below the avatar */ /* shadow-xl */
+  }
+
+  .avatar {
+    position: absolute; 
+    top: 18px; 
+    left: 134px; 
+    width: 112px; 
+    height: 112px; 
+    background: #A5F8F1FF; /* primary-200 */
+    opacity: 1; 
+    overflow: hidden; 
+    border-radius: 56px; 
+    z-index: 2; 
+  }
+  .avatar img {
+    width: 112px; 
+    height: 112px; 
+  }
+  .avatar .badge {
+    width: 28px; 
+    height: 28px; 
+    border-radius: 14px; 
+  }
+
+  .avatar2 {
+    position: absolute; 
+    top: 287px; 
+    left: 540px; 
+    width: 84px; 
+    height: 84px; 
+    background: #F8C8F8FF; /* tertiary2-200 */
+    opacity: 1; 
+    overflow: hidden; 
+    border-radius: 42px; 
+    z-index: 2; 
+  }
+  .avatar2 img {
+    width: 84px; 
+    height: 84px; 
+  }
+
+  .leafimg {
+    position: absolute; 
+    top: 74px; 
+    left: 582px; 
+    height: 52px; 
+    padding: 0 14px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    color: #FFFFFFFF; /* white */
+    /* secondary-500 */
+    opacity: 1; 
+    border: none; 
+    border-radius: 26px; 
+  /* shadow-m */
+    gap: 0px; 
+  }
+  .leafimg img {
+    width: 24px; 
+    height: 24px; 
+    fill: #FFFFFFFF; /* white */
+  }
+  /* Hover */
+  .leafimg:hover {
+    color: #FFFFFFFF; /* white */
+    /* secondary-600 */
+  }
+
+  .jobcontainer {
+    position: absolute; 
+    top: 32px; 
+    left: 290px; 
+    width: 254px; 
+    height: 112px; 
+    background: #FFFFFFFF; /* white */
+    border-radius: 8px; /* border-xl */
+    box-shadow: 0px 8px 17px #171a1f, 0px 0px 2px #171a1f; /* shadow-l */
+  }
+
+  .jobimg{
+    position: absolute; 
+    top: 36px; 
+    left: 22px; 
+    width: 51px; 
+    height: 38px; 
+    border-radius: 0px; 
+  }
+
+  .text {
+    position: absolute; 
+    top: 10px; 
+    left: 92px; 
+    font-family: Lato; /* Body */
+    font-size: 16px; 
+    line-height: 26px; 
+    font-weight: 700; 
+    color: #171A1FFF; /* neutral-900 */
+  }
+
+  .salary {
+    position: absolute; 
+    top: 38px; 
+    left: 92px; 
+    font-family: Lato; /* Body */
+    font-size: 14px; 
+    line-height: 22px; 
+    font-weight: 700; 
+    color: #0EA89BFF; /* primary-500 */
+  }
+
+  .jobcontainer2{
+    position: absolute; 
+    top: 106px; 
+    left: 44px; 
+    width: 321px; 
+    height: 118px; 
+    background: #FFFFFFFF; /* white */
+    border-radius: 8px; /* border-xl */
+    box-shadow: 0px 2px 5px #171a1f, 0px 0px 2px #171a1f;
+    z-index: -1;/* shadow-s */
+  }
+
+  .jobtext{
+    position: absolute; 
+    top: 151px; 
+    left: 132px; 
+    font-family: Sarabun; /* Heading */
+    font-size: 40px; 
+    /* line-height: 68px;  */
+    font-weight: 700; 
+    color: #0EA89BFF;
+  }
+
+  .jobtextdesc{
+  position: absolute; 
+  top: 300px; 
+  left: 132px; 
+  width: 501px; 
+  font-family: Lato; /* Body */
+  font-size: 19px; 
+  /* line-height: 22px;  */
+  font-weight: 400; 
+  color: #565E6CFF; 
+  }
+
+ /* Button 60 */
+.button2 {
+    position: absolute; 
+    top: 400px; 
+    left: 132px; 
+    width: 192px; 
+    height: 52px; 
+    padding: 0 20px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    font-family: Lato; 
+    font-size: 18px; 
+    line-height: 28px; 
+    font-weight: 400; 
+    color: #FFFFFFFF; /* white */
+    background: #0EA89BFF; /* primary-500 */
+    opacity: 1; 
+    border: none; 
+    border-radius: 4px; /* border-m */
+    box-shadow: 0px 4px 9px #0ea89b, 0px 0px 2px #0ea89b; /* shadow-m */
+  }
+  /* Hover */
+  .button2:hover {
+    color: #FFFFFFFF; /* white */
+    background: #0C988DFF; /* primary-550 */
+  }
+  /* Pressed */
+  .button2:hover:active {
+    color: #FFFFFFFF; /* white */
+    background: #0B877CFF; /* primary-600 */
+  }
+  /* Disabled */
+  .button2:disabled {
+    opacity: 0.4; 
+  }

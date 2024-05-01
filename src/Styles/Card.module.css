@@ -1,0 +1,58 @@
+.cardContainer {
+  margin-top: 750px;
+  margin-left: 800px;
+  width: 1440px;
+}
+
+.customCardContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px; 
+}
+.customCard {
+  background-color:   rgb(249, 255, 254); 
+  width: 320px;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+  border: 1px dotted    rgb(11, 105, 89); ;
+}
+.customCard2{
+  background-color:  rgb(249, 255, 254); 
+  width: 360px;
+  height: 290px;
+  justify-content: center;
+  align-items: center;
+  border: 1px dotted    rgb(11, 105, 89); ;
+}
+
+.customCard .ant-card-head {
+  color: #fff; 
+}
+
+.customCard .ant-card-head-title {
+  font-size: 18px; 
+  font-weight: bold; 
+}
+
+.customCard .ant-card-body p {
+  margin-bottom: 10px; 
+}
+
+.inputfield{
+  width:140vh;
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-top: 5%;
+ }
+ 
+ .searchbar{
+   width:100vh;
+   
+ }
+ .sort{
+   width: 50vh;
+   margin-left: 17px;
+ }
