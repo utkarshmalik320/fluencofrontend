@@ -1,23 +1,22 @@
 /* Container 101 */
-.container {
+.maindiv {
     position: absolute; 
     top: 65px; 
     left: 1px; 
     width: 1440px; 
     height: 512px; 
-    background: #ECFDFCFF; /* primary-100 */
-    border-radius: 0px; 
+    background:  #2B2D38;
   }
 
   /* Container 102 */
 .container2 {
     position: absolute; 
-    top: 53px; 
+    top: 59px; 
     left: 663px; 
-    width: 645px; 
+    width: 6px; 
     height: 406px; 
-    background: #ECFDFCFF; /* primary-100 */
-    border-radius: 0px; 
+    /* background: #ECFDFCFF; */
+    /* border-radius: 0px;  */
     
   }
 
