@@ -9,7 +9,6 @@ const { Search } = Input;
 import { Input } from "antd";
 import axios from 'axios';
 const ITEMS_PER_PAGE = 12;
-// Testing
 const onSearch = (value, _e, info) => console.log(info?.source, value);
 const App = () => {
 
