@@ -6,8 +6,11 @@ import { useFormik } from "formik";
 import axios from "axios";
 import logo from "/Images/logo.svg";
 import styles from "../../Styles/Signup.module.css";
+import { useNavigate } from "react-router-dom";
 
 const AddCoupon = () => {
+  const navigate = useNavigate();
+
   const [messageApi, contextHolder] = message.useMessage();
   const success = () => {
     messageApi.open({
@@ -46,12 +49,14 @@ const AddCoupon = () => {
             websiteLink,
             termsCondition,
             expiry,
-          }
+          },
+          {withCredentials: true}
         );
          
-        if (response.status === 200) {
+        if (response.status === 201) {
           notification.success({ message: "Coupon added successfully!" });
           formik.resetForm();
+          navigate('/allcoupon');
         } 
       } catch (error) {
         console.error("Error adding coupon:", error);
@@ -157,7 +162,7 @@ const AddCoupon = () => {
             ) : null}
           </div>
           {contextHolder}
-          <Button className={styles.submitButton} onClick={success} htmlType="submit">Add Coupon</Button>
+          <Button className={styles.submitButton}  htmlType="submit">Add Coupon</Button>
         </Form>
       </Formik>
     </div>

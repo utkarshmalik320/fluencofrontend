@@ -84,7 +84,7 @@ export default function Header({ isLoggedIn }) {
               </li>
               <li>
               <NavLink
-                  to="/influencer"
+                  to="/allcoupon"
                   className={`${styles.linktext1} ${styles.navlink}`}
                 >
                   Coupons
