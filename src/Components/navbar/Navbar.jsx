@@ -13,7 +13,7 @@ export default function Header({ isLoggedIn }) {
   const handleLogout = async () => {
     try {
       // Make a request to the logout endpoint to invalidate the JWT token
-      await axios.get("http://localhost:3000/api/creator/logout");
+      await axios.get("http://localhost:3000/api/creator/logout", {withCredentials:true});
 
       // Clear user information from local storage
       localStorage.removeItem("userEmail");

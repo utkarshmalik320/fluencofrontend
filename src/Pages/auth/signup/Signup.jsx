@@ -78,8 +78,12 @@ const Login = () => {
           navigate('/login');
         }
       } catch (error) {
-        console.error(error);
-        notification.error({ message: "Error Signing Up" });
+        console.error(error.response.data);
+        if (error.response.status === 500) {
+          notification.error({ message: error.response.data.message });
+        } else {
+          notification.error({ message: "Error signing up. Please try again." });
+        }
       }
     },
   });
