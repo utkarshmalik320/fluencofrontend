@@ -20,7 +20,7 @@ function CreatorInfo() {
 
   useEffect(() => {
     // axios.get("http://localhost:3000/api/creator/getAllInfluencers")
-    axios.get("http://localhost:3000/api/creator/getInfluencer/6619472eb4a50e740073b261")
+    axios.get("http://localhost:3000/api/creator/getInfluencer", {withCredentials:true})
       .then((response) => {
         if (response.data ) {
           
@@ -30,7 +30,7 @@ function CreatorInfo() {
         }
       })
       .catch((error) => {
-        console.error("Error fetching data:", error);
+        console.error("Error fetching data:", error.response.data);
         message.error("Error fetching data");
       });
   }, []);
@@ -42,12 +42,12 @@ function CreatorInfo() {
 
   const handleSave = async () => {
     try {
-      await axios.post('http://localhost:3000/api/creator/update', formData);
+      await axios.post('http://localhost:3000/api/creator/update', formData, {withCredentials:true});
       message.success('Changes saved successfully!');
       setEditing(false);
     } catch (error) {
-      console.error('Error saving changes:', error);
-      message.error('Failed to save changes. Please try again later.');
+      console.error('Error saving changes:', error.response.data);
+      message.error(error.response.data.error);
     }
   };
 
