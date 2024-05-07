@@ -1,215 +1,158 @@
-/* Container 101 */
-.maindiv {
-    position: absolute; 
-    top: 65px; 
-    left: 1px; 
-    width: 1440px; 
-    height: 512px; 
-    background:  #2B2D38;
-  }
+.maindiv{
+  width: 1440px;
+  background-color: #2B2D38;
+  max-width: 100%;
+  height: 1186px;
+  position : absolute;
+  margin-top: 56px;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  top: 0px; 
+  left: 0px; 
+  right: 0px;
+  position:absolute;
 
-  /* Container 102 */
-.container2 {
-    position: absolute; 
-    top: 59px; 
-    left: 663px; 
-    width: 6px; 
-    height: 406px; 
-    /* background: #ECFDFCFF; */
-    /* border-radius: 0px;  */
-    
-  }
+  
+  
+}
 
-  /* Rectangle 9 */
-.rectangle {
-    position: relative; 
-    top: 85px; 
-    left: 59px; 
-    width: 586px; 
-    height: 244px; 
-    background: #0EA89BFF; /* primary-500 */
-    border-radius: 122px; 
-    box-shadow: 0px 17px 35px #0ea89b, 0px 0px 2px #0ea89b;
-    z-index: 1; /* Ensure the rectangle appears below the avatar */ /* shadow-xl */
-  }
+.heading{
+  width: 622px;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 400;
+  color: var(--White, #FFF);
+  font-family: "Bebas Neue";
+  height: 272px;
+  align-items: flex-start;
+  padding: 30px 30px 80px 60px;
+}
 
-  .avatar {
-    position: absolute; 
-    top: 18px; 
-    left: 134px; 
-    width: 112px; 
-    height: 112px; 
-    background: #A5F8F1FF; /* primary-200 */
-    opacity: 1; 
-    overflow: hidden; 
-    border-radius: 56px; 
-    z-index: 2; 
-  }
-  .avatar img {
-    width: 112px; 
-    height: 112px; 
-  }
-  .avatar .badge {
-    width: 28px; 
-    height: 28px; 
-    border-radius: 14px; 
-  }
 
-  .avatar2 {
-    position: absolute; 
-    top: 287px; 
-    left: 540px; 
-    width: 84px; 
-    height: 84px; 
-    background: #F8C8F8FF; /* tertiary2-200 */
-    opacity: 1; 
-    overflow: hidden; 
-    border-radius: 42px; 
-    z-index: 2; 
-  }
-  .avatar2 img {
-    width: 84px; 
-    height: 84px; 
-  }
+.subdiv{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 17px;
+}
 
-  .leafimg {
-    position: absolute; 
-    top: 74px; 
-    left: 582px; 
-    height: 52px; 
-    padding: 0 14px; 
+.spantext {
+  color: #F77A40;
+}
+
+.desciption{
+  width: 622px;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  color: var(--White, #FFF);
+  font-family: "Bebas Neue";
+  height: 272px;
+  padding-left: 50px;
+}
+
+.text{
+color: var(--White, #FFF);
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 125% */
+opacity: 0.5;
+}
+
+.button {
+    padding: 2px 8px;
+    width: 240px;
     display: flex; 
     align-items: center; 
     justify-content: center; 
-    color: #FFFFFFFF; /* white */
-    /* secondary-500 */
     opacity: 1; 
     border: none; 
-    border-radius: 26px; 
-  /* shadow-m */
-    gap: 0px; 
-  }
-  .leafimg img {
-    width: 24px; 
-    height: 24px; 
-    fill: #FFFFFFFF; /* white */
-  }
-  /* Hover */
-  .leafimg:hover {
-    color: #FFFFFFFF; /* white */
-    /* secondary-600 */
-  }
+    border-radius: 1rem 1rem 1rem 0rem;
+    font-size: 19px;
+    cursor: pointer; 
+    background-color: #F77A40;;
+}
 
-  .jobcontainer {
-    position: absolute; 
-    top: 32px; 
-    left: 290px; 
-    width: 254px; 
-    height: 112px; 
-    background: #FFFFFFFF; /* white */
-    border-radius: 8px; /* border-xl */
-    box-shadow: 0px 8px 17px #171a1f, 0px 0px 2px #171a1f; /* shadow-l */
-  }
+.subdivimg{
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  position: relative;
+}
 
-  .jobimg{
-    position: absolute; 
-    top: 36px; 
-    left: 22px; 
-    width: 51px; 
-    height: 38px; 
-    border-radius: 0px; 
-  }
+.subdivimg img {
+  width: 100%; /* Adjust as needed */
+  height: auto; /* Maintains aspect ratio */
+  position: absolute;
+  
+}
 
-  .text {
-    position: absolute; 
-    top: 10px; 
-    left: 92px; 
-    font-family: Lato; /* Body */
-    font-size: 16px; 
-    line-height: 26px; 
-    font-weight: 700; 
-    color: #171A1FFF; /* neutral-900 */
-  }
+.subdivimg img:nth-child(1) {
+  top: 91px;
+  width: 260px;
+  height: 439px;
+}
 
-  .salary {
-    position: absolute; 
-    top: 38px; 
-    left: 92px; 
-    font-family: Lato; /* Body */
-    font-size: 14px; 
-    line-height: 22px; 
-    font-weight: 700; 
-    color: #0EA89BFF; /* primary-500 */
-  }
+.subdivimg img:nth-child(2) {
+  top: 20px; /* Adjust the offset as needed */
+  width: 320px;
+  left: 170px;
+  height: 486px;
 
-  .jobcontainer2{
-    position: absolute; 
-    top: 106px; 
-    left: 44px; 
-    width: 321px; 
-    height: 118px; 
-    background: #FFFFFFFF; /* white */
-    border-radius: 8px; /* border-xl */
-    box-shadow: 0px 2px 5px #171a1f, 0px 0px 2px #171a1f;
-    z-index: -1;/* shadow-s */
-  }
+}
 
-  .jobtext{
-    position: absolute; 
-    top: 151px; 
-    left: 132px; 
-    font-family: Sarabun; /* Heading */
-    font-size: 40px; 
-    /* line-height: 68px;  */
-    font-weight: 700; 
-    color: #0EA89BFF;
-  }
+.subdivimg img:nth-child(3) {
+  top: 330px; /* Adjust the offset as needed */
+  width: 386px;
+  left: 160px;
+  height: 380px;
+}
 
-  .jobtextdesc{
-  position: absolute; 
-  top: 300px; 
-  left: 132px; 
-  width: 501px; 
-  font-family: Lato; /* Body */
-  font-size: 19px; 
-  /* line-height: 22px;  */
-  font-weight: 400; 
-  color: #565E6CFF; 
-  }
 
- /* Button 60 */
-.button2 {
-    position: absolute; 
-    top: 400px; 
-    left: 132px; 
-    width: 192px; 
-    height: 52px; 
-    padding: 0 20px; 
-    display: flex; 
-    align-items: center; 
-    justify-content: center; 
-    font-family: Lato; 
-    font-size: 18px; 
-    line-height: 28px; 
-    font-weight: 400; 
-    color: #FFFFFFFF; /* white */
-    background: #0EA89BFF; /* primary-500 */
-    opacity: 1; 
-    border: none; 
-    border-radius: 4px; /* border-m */
-    box-shadow: 0px 4px 9px #0ea89b, 0px 0px 2px #0ea89b; /* shadow-m */
-  }
-  /* Hover */
-  .button2:hover {
-    color: #FFFFFFFF; /* white */
-    background: #0C988DFF; /* primary-550 */
-  }
-  /* Pressed */
-  .button2:hover:active {
-    color: #FFFFFFFF; /* white */
-    background: #0B877CFF; /* primary-600 */
-  }
-  /* Disabled */
-  .button2:disabled {
-    opacity: 0.4; 
-  }
+.titleheading{
+width: 700px;
+height: 178px;
+top: 808px;
+left: 430px;
+gap: 0px;
+opacity: 0px;
+color: #FFF;
+font-family: "Bebas Neue";
+font-size: 56px;
+font-style: normal;
+position : absolute;
+font-weight: 400;
+}
+
+.smallheading{
+  width: 700px;
+height: 178px;
+top: 790px;
+left: 600px;
+gap: 0px;
+opacity: 0px;
+color: #F77A40;
+font-family: "Bebas Neue";
+font-size: 24px;
+font-style: normal;
+position : absolute;
+font-weight: 400;
+}
+
+.textdiv{
+  width: 560px;
+  height: 128px;
+  top: 1108px;
+  left: 440px;
+  gap: 0px;
+  opacity: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}

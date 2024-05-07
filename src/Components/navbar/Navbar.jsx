@@ -5,7 +5,7 @@ import styles from "../../Styles/Navbar.module.css";
 import { Avatar, Dropdown, message } from "antd";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
-import Logo2 from "../../../public/Images/GathSession.png"
+import Logo2 from "/Images/GathSession.png"
 export default function Header({ isLoggedIn }) {
   const [messageApi] = message.useMessage();
   const navigate = useNavigate();

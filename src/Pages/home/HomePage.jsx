@@ -13,8 +13,8 @@ const HomePage = () => {
     <>
     <Navbar isLoggedIn={isLoggedIn} />
     <HeroSection/>
-    <BrandSection/>
-    <Footer/>
+    {/* <BrandSection/>
+    <Footer/> */}
     </>
   )
 }
